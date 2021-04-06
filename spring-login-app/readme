@@ -1,0 +1,13 @@
+Login spring boot application
+
+The app gives the opportunity of signing in and out on localhost, on the 8080 port with the following credentials:
+username "user" and password "password". If these credentials are put, the user will be redirected from the
+"/login" page to the "/logged" page, where he/she is greeted with "Hello user!" and from where the user can sign out and
+be redirected to the "/login" page.
+
+I have tested with mockMvc the fact that the user can authenticate with the credentials mentioned before and cannot
+authenticate with any other credentials.
+
+If you consider this project as not enough, please let me know. For example, if a user should sign in with any data,
+I will use a JPA Repository and connect to a database in order to put all the data for a client in a predefined
+structure.

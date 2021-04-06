@@ -1,0 +1,3 @@
+com\codenerve\spring\sec\config\MvcConfig.class
+com\codenerve\spring\sec\Application.class
+com\codenerve\spring\sec\config\WebSecurityConfig.class
